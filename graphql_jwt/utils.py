@@ -128,6 +128,7 @@ def set_cookie(response, key, value, expires):
         secure=jwt_settings.JWT_COOKIE_SECURE,
         path=jwt_settings.JWT_COOKIE_PATH,
         domain=jwt_settings.JWT_COOKIE_DOMAIN,
+        samesite=jwt_settings.JWT_COOKIE_SAMESITE,
     )
 
 
